@@ -9,7 +9,7 @@ type Props = {}
 
 export default function Skills({ }: Props) {
     return (
-        <div className='flex flex-col md:flex-row sm:px-10 lg:px-0 max-w-5xl mx-auto justify-between items-center gap-5 md:gap-10 mb-24 md:mb-48'>
+        <div className='flex flex-col md:flex-row px-10 lg:px-0 max-w-5xl mx-auto justify-between items-center gap-5 md:gap-10 mb-24 md:mb-48'>
             {/* <h4 className='md:hidden uppercase tracking-[10px] text-blue-400 font-bold'>Skills</h4> */}
             <motion.div
                 initial={{

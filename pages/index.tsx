@@ -21,40 +21,40 @@ const Home: NextPage = () => {
       <Header />
 
       {/* Hero */}
-      <section id='hero' className='snap-start'>
+      <section id='hero'>
         <Hero />
       </section>
 
       {/* About */}
-      <section id='about' className='snap-center'>
+      <section id='about'>
         <About />
       </section>
 
       {/* Skills */}
-      <section id='skills' className='snap-center'>
+      <section id='skills'>
         <Skills />
       </section>
 
       {/* Experience */}
-      <section id='workExp' className='snap-center'>
+      <section id='workExp'>
         <WorkExperience />
       </section>
 
       {/* Projects */}
-      <section id='project' className='snap-center'>
+      <section id='project'>
         <Projects />
       </section>
 
-      <section id='book' className='snap-center'>
+      <section id='book'>
         <Books />
       </section>
 
       {/* Contact Me */}
-      <section id='contact' className='snap-center border-b border-dark-gray'>
+      <section id='contact' className='border-b border-dark-gray'>
         <ContactMe />
       </section>
 
-      <section id='getCloseMe' className='snap-center'>
+      <section id='getCloseMe'>
         <GetMe />
       </section>
     </div>

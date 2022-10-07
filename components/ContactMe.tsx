@@ -10,13 +10,27 @@ export default function ContactMe({ }: Props) {
         <div className='flex flex-col max-w-7xl px-5 justify-center mx-auto items-center mb-20 md:mb-40'>
             <h4 className='uppercase tracking-[10px] font-bold mb-14 md:mb-20'>Hackathon Winner</h4>
             <div className='flex flex-col lg:flex-row justify-evenly w-full items-center gap-10 md:gap-10'>
-                <div
+                <motion.div
+                    initial={{
+                        y: 100,
+                        opacity: 0
+                    }}
+                    whileInView={{
+                        y: 0,
+                        opacity: 1
+                    }}
+                    viewport={{
+                        once: true,
+                    }}
+                    transition={{
+                        duration: 1
+                    }}
                     className='h-[23rem] w-[23rem] md:h-[40rem] md:w-[40rem] relative group'>
                     <img
                         className='hover:opacity-80 delay-50 transition ease-in-out duration-300 rounded-sm'
                         src='https://i.postimg.cc/0y97GsPm/IMG-4613.jpg' alt="densoImg"
                     />
-                </div>
+                </motion.div>
                 <motion.div
                     initial={{
                         y: 100,
