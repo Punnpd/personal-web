@@ -12,7 +12,7 @@ import WorkExperience from '../components/WorkExperience'
 
 const Home: NextPage = () => {
   return (
-    <div className='bg-[rgb(5,5,5)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scroll-smooth'>
+    <div className='bg-[rgb(5,5,5)] text-white h-screen overflow-scroll z-0 scroll-smooth'>
       <Head>
         <title>Portfolio</title>
       </Head>
@@ -30,15 +30,16 @@ const Home: NextPage = () => {
         <About />
       </section>
 
+      {/* Skills */}
+      <section id='skills' className='snap-center'>
+        <Skills />
+      </section>
+
       {/* Experience */}
       <section id='workExp' className='snap-center'>
         <WorkExperience />
       </section>
 
-      {/* Skills */}
-      <section id='skills' className='snap-center'>
-        <Skills />
-      </section>
       {/* Projects */}
       <section id='project' className='snap-center'>
         <Projects />

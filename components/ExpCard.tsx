@@ -27,7 +27,8 @@ export default function ExpCard({ imgSrc, companyName, position, duration, imgCo
             transition={{
                 duration: 1
             }}
-            className='flex flex-col items-center justify-center flex-shrink-0 w-full md:w-auto snap-center'>
+            // flex-shrink-0 w-full 
+            className='flex flex-col items-center justify-center w-full'>
             <div className='flex flex-col'>
                 <img
                     className={`${imgConfig} object-cover object-center`}
